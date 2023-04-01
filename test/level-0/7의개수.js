@@ -25,9 +25,9 @@ const solution = (array) => {
   for (let i = 0; i < array.length; i++) {
     let num = array[i];
     while (num > 0) { // 각 자리수를 분리하기 위한 반복문
-      if (num % 10 === 7) { // 현재 자리수가 7인지 확인
+      if (num % 10 === 7)  // 현재 자리수가 7인지 확인
         count++; // 7이면 개수 증가
-      }
+      
       num = Math.floor(num / 10); // 다음 자리수로 이동
     }
   }
