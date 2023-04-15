@@ -1,7 +1,5 @@
 # JSWorld
 
-For Toy Project
-
 |폴더|용도|
 |---|---|
 |**theory**|JS 이론, 문법, 구문|
