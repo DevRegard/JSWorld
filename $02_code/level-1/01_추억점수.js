@@ -12,7 +12,6 @@ const solution = (name, yearning, photo) => {
       const index = people.findIndex((p) => p.name === person);
       // 인물의 그리움 점수가 있는 경우 합산
       if (index !== -1) score += people[index].yearning;
-
     }
     return score;
   });
