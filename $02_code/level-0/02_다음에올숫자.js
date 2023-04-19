@@ -1,12 +1,12 @@
 // #1
-const solution = (common) => {
+const solution = (c) => {
   // 등차 수열
-  if (common[common.length-1] - common[common.length-2] === common[common.length-2] - common[common.length-3])
-    return common[common.length-1] + (common[common.length-1] - common[common.length-2]); // an + an - d
+  if (c[c.length-1] - c[c.length-2] === c[c.length-2] - c[c.length-3])
+    return c[c.length-1] + (c[c.length-1] - c[c.length-2]); // an + an - d
   // 등비 수열
   else 
-    return common[common.length-1] * (common[common.length-1] / common[common.length-2]); // an * an / d
-};
+    return c[c.length-1] * (c[c.length-1] / c[c.length-2]); // an * an / d
+}
 
 
 
