@@ -17,10 +17,8 @@ const solution = (babbling) => {
   return answer;
 };
 
-
-
 // #2
-const solution_2 = (babbling) => {
+const solution_02 = (babbling) => {
   let answer = 0;
   const regex = /^(aya|ye|woo|ma)+$/;
 
@@ -30,10 +28,8 @@ const solution_2 = (babbling) => {
   return answer;
 }
 
-
-
 // #3
-const solution_3 = (babbling) => {
+const solution_03 = (babbling) => {
   const regex = /^(aya|ye|woo|ma)+$/;
   return babbling.filter(word => regex.test(word)).length;
 }

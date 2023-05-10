@@ -14,4 +14,4 @@ const solution = (array) => {
 } 
 
 // #2
-const solution_2 = (array) => array.join().split("").filter((el)=>{return el=="7"}).length
+const solution_02 = (array) => array.join().split("").filter((el)=>{return el=="7"}).length

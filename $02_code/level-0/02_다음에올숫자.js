@@ -8,7 +8,5 @@ const solution = (c) => {
     return c[c.length-1] * (c[c.length-1] / c[c.length-2]); // an * an / d
 }
 
-
-
 // #2
-const solution_2 = c => c[1]-c[0] === c[2]-c[1] ? c[c.length-1] + c[1] - c[0] : c[c.length-1] * c[1] / c[0]
+const solution_02 = c => c[1]-c[0] === c[2]-c[1] ? c[c.length-1] + c[1] - c[0] : c[c.length-1] * c[1] / c[0]
